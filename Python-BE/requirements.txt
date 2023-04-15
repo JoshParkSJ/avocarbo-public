@@ -1,0 +1,14 @@
+fastapi==0.63.0
+uvicorn==0.13.4
+mangum==0.11.0
+tensorflow==2.8.0; sys_platform != 'darwin' or platform_machine != 'arm64'
+numpy 
+pymongo
+pyjwt
+passlib
+requests
+Pillow
+
+image
+python-multipart
+certifi
