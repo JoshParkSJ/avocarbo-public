@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_copy">
+    <include layout="@layout/appbar_main_page"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemBackground="@color/avocarbolightgreygreen"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/bottom_nav"
+        android:layout_alignParentBottom="true"
+        />
+
+    <TextView
+        android:id="@+id/home_9am"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/home_9am"
+        android:textSize="20sp" />
+
+
+    <ImageButton
+        android:id="@+id/home_bread"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:onClick="bread_info"
+        android:layout_below="@+id/home_9am"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/bread" />
+
+
+
+    <TextView
+        android:id="@+id/home_12pm"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_bread"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/home_12pm"
+        android:textSize="20sp" />
+
+
+    <ImageView
+        android:id="@+id/home_broccoli"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:scaleType="centerCrop"
+        android:layout_below="@+id/home_12pm"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/broccoli" />
+
+    <ImageView
+        android:id="@+id/home_chicken"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:layout_below="@+id/home_12pm"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/home_broccoli"
+        app:srcCompat="@drawable/chicken" />
+
+    <TextView
+        android:id="@+id/home_6pm"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_broccoli"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/home_6pm"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/home_beef"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_below="@+id/home_6pm"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/beef" />
+
+    <ImageView
+        android:id="@+id/home_cucumber"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/home_beef"
+        android:layout_below="@+id/home_6pm"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/cucumber" />
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/home_title"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:id="@+id/home" />
+
+    <item android:title="@string/recipes_title"
+        android:icon="@drawable/ic_baseline_restaurant_24"
+        android:id="@+id/recipes"/>
+
+    <item android:title="@string/camera_title"
+        android:icon="@drawable/ic_baseline_photo_camera_24"
+        android:id="@+id/camera"/>
+
+    <item android:title="@string/history_title"
+        android:icon="@drawable/ic_baseline_history_24"
+        android:id="@+id/history"/>
+
+    <item android:title="@string/profile_title"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:id="@+id/profile"/>
+</menu>
