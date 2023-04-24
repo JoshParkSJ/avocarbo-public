@@ -2,7 +2,7 @@
 
 <div align="center">
 	<h2>Carbohydrate counting app for type 1 diabetes patients</h2>
-	<iframe width="420" height="315" src="https://www.youtube.com/shorts/Q4NB3msjlTQ" style="vertical-align:middle">
+	<iframe width="420" height="315" src="https://www.youtube.com/shorts/Q4NB3msjlTQ" style="vertical-align:middle"></iframe>
 </div>
 
 Machine Learning Script: https://www.kaggle.com/code/joshparksj/avocarbo
