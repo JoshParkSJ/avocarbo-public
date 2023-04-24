@@ -2,7 +2,7 @@
 
 <div align="center">
 	<h2>Carbohydrate counting app for type 1 diabetes patients</h2>
-	<iframe width="420" height="345" src="https://www.youtube.com/embed/Q4NB3msjlTQ&loop=1">
+	<iframe src="https://www.youtube.com/embed/Q4NB3msjlTQ">
 	</iframe>
 </div>
 
