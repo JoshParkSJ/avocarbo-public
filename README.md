@@ -2,7 +2,7 @@
 
 <div align="center">
 	<h2>Carbohydrate counting app for type 1 diabetes patients</h2>
-	[![iOS Demo](https://img.youtube.com/vi/Q4NB3msjlTQ/0.jpg)](https://www.youtube.com/shorts/Q4NB3msjlTQ)
+	<a href="https://www.youtube.com/shorts/Q4NB3msjlTQ" target="_blank"><img src="https://img.youtube.com/vi/Q4NB3msjlTQ/0.jpg" /></a>
 </div>
 
 
