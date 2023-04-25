@@ -1,4 +1,4 @@
-# Avocarbo: Carb Counting App
+# Avocarbo
 
 <div align="center">
 	<h2>Carbohydrate counting app for type 1 diabetes patients</h2>
