@@ -3,9 +3,8 @@
 <div align="center">
 	<h2>Carbohydrate counting app for type 1 diabetes patients</h2>
 	<a href="https://www.youtube.com/shorts/Q4NB3msjlTQ" target="_blank"><img src="https://img.youtube.com/vi/Q4NB3msjlTQ/0.jpg" /></a>
+	<p>DEMO: https://www.youtube.com/shorts/Q4NB3msjlTQ</p>
 </div>
-
-<p>DEMO: https://www.youtube.com/shorts/Q4NB3msjlTQ</p>
 
 ### Problem
 1. Weighing food and referring to a list of carb count is accurate but slow
